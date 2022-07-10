@@ -1,0 +1,37 @@
+.hblok{
+    background: aqua;
+    width: 300px;
+    height: 120px;
+    margin: 10px;
+}
+.hblok > h1{
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 50px;
+
+
+}
+.tar{
+    background: dodgerblue;
+    height: 100px;
+    width: 75px;
+    box-sizing: border-box;
+    ;
+    margin: 10px;
+
+
+}
+.cont{
+    display: flex;
+    margin: 10px;
+}
+.ublok{
+    background: aqua;
+    width: 300px;
+    height: 160px;
+    margin: 10px;
+}
+.ublok > h1{
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 50px;
