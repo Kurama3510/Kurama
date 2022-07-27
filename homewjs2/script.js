@@ -1,7 +1,16 @@
 // - Створити масив, наповнити його 10 елементами будь-якого типу, вивести кожен елемент в консоль
 
     let tenelements = ['hi', 10, 3.14, 'Where are you', 1/2, 5^6, 'RaKaMaKaFo', "hi", "nice", "cool"]
-        console.log(tenelements);
+        console.log(tenelements[0]);
+        console.log(tenelements[1]);
+        console.log(tenelements[2]);
+        console.log(tenelements[3]);
+        console.log(tenelements[4]);
+        console.log(tenelements[5]);
+        console.log(tenelements[6]);
+        console.log(tenelements[7]);
+        console.log(tenelements[8]);
+        console.log(tenelements[9]);
 
 // - Створити 3 об'єкти які описують книги. Поля об'єкту : title ,pageCount, genre.
 
@@ -36,8 +45,9 @@
         title: 'Darling in the Franks',
         pageCount: 64,
         genre: 'Anime',
-        auhors:  {name: 'Tomas Shelbi', age:31 }
-
+        auhors:  [
+            {name: 'Tomas Shelbi', age:31 }
+        ]
 
     }
     console.log(book4);
@@ -46,8 +56,9 @@
         title: 'One Piese',
         pageCount: 64,
         genre: 'Anime',
-        auhors:  {name: 'Artyr Shelbi', age:31 }
-
+        auhors:  [
+            {name: 'Artyr Shelbi', age:31 }
+         ]
     }
     console.log(book5);
 
@@ -55,8 +66,9 @@
         title: 'Magic Fight',
         pageCount: 64,
         genre: 'Anime',
-        auhors:  {name: 'Jhon Shelbi', age:31 }
-
+        auhors: [
+            {name: 'Jhon Shelbi', age:31 }
+        ]
     }
     console.log(book6);
 // - Створити масив з 10 об'єктами які описують сутніть "користувач". Поля: name, username,password. Вивести в консоль пароль кожного користувача
