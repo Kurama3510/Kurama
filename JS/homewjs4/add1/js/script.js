@@ -36,7 +36,7 @@
 
 //     3. перебрати циклом while та вивести  числа тільки з непарним індексом
 
-// let i = 0;
+// let i = 1;
 // while (i < number2.length) {
 //     document.write(`<div>${number2[i]}</div>`);
 //     i += 2;
