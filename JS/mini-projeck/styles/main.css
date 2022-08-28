@@ -1,0 +1,123 @@
+/*Стилизація проєкта -*/
+/*index.html - всі блоки з user - по 2 в рядок. кнопки/аосилвння розташувати під інформацією про user.*/
+/*user-details.html - блок з інфою про user зверху сторінки. Кнопка нижчє, на 90% ширины сторінки, по центру.*/
+/*блоки з короткою іфною про post - в ряд по 5 .*/
+/*post-details.html - блок з інфою про пост зверху. Коментарі - по 4 в ряд.*/
+/*Всі елементи котрі характеризують users, posts, comments візуалізувати, так, щоб було видно що це блоки (дати фон. марджини і тд)*/
+h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    background: aqua;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.child{
+    width: 35%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.child p {
+    font-size: 20px;
+}
+
+.user-block{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 0 auto 20px;
+}
+
+.user-item{
+    border: 1px solid black;
+    width: 17%;
+    box-sizing: border-box;
+    padding: 5px;
+    background: deeppink;
+}
+
+.user-btn,.comment-btn{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.user-btn button, .comment-btn button{
+    padding: 10px;
+    box-sizing: border-box;
+    width: 90%;
+    font-size: 20px;
+    margin: 0 auto 20px;
+}
+
+.title-block{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 45px;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+.title-block div {
+    border: 3px solid darkorange;
+    max-width: 17%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 15px;
+    gap: 15px;
+    background: coral;
+}
+
+.main{
+    width: 90%;
+    padding: 5px;
+    box-sizing: border-box;
+    margin: 0 auto 20px;
+}
+
+.main div{
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px solid #ff4800;
+    background: darkorange;
+}
+
+.main-comment{
+    width: 90%;
+    padding: 5px;
+    box-sizing: border-box;
+    margin: 0 auto 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    flex-wrap: wrap;
+
+}
+
+.main-comment div{
+    border: 3px solid #000d42;
+    width: 23%;
+    padding: 10px;
+    box-sizing: border-box;
+    background: dodgerblue;
+}
